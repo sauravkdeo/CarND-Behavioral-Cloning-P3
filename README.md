@@ -44,7 +44,9 @@ The ```model.py``` file contains the code for training and saving the convolutio
 
 * The model is loosely based on the paper "End to End Learning for Self-Driving Cars"[here](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
 
+<p align="center">
 <img src="./images/network.png">
+</p>
 
 ### Loading Data
 
@@ -65,7 +67,9 @@ The ```model.py``` file contains the code for training and saving the convolutio
 
 ### Final Model Architecture
 
+<p align="center">
 <img src="./images/mymodel.png">
+</p>
 
 ###### Input layer
   Input layer is normalized, such that the value should be between -05 to 0.5 . The shape of the layer is 160x320x3
@@ -115,6 +119,4 @@ The model is compiled with mean squared error loss function, and optimized using
 * Loss Function Used- MSE(Mean Squared Error as it is efficient for regression problem).
 
 ### Output Video
-<video width="320" height="240" controls>
-  <source src="run1.mp4" type="video/mp4">
-</video>
+[![Click on Video to watch it on youtube](./images/vid_img.jpg)](https://www.youtube.com/watch?v=n5nzkptUrOs)
